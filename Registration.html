@@ -8,52 +8,91 @@
         <h2>User Registration</h2>
         <p>Please fill out the information below</p>
         <form action="">
-            <table id="tblRegistration">
-                <tr>
-                    <td><label for="txtUserName"> Name:</label></td>
-                    <td><input type="text" name="txtUserName" /></td>
-                </tr>
-                <tr>
-                    <td><label for="txtPassword">Password:</label></td>
-                    <td><input type="password" name="txtPassword" /></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td><label for="radGender">Gender:</label>:</td>
-                    <td><input type="radio" name="radGender" value="male" />Male</td>                    
-                </tr>
-                <tr>
-                    <td> </td>
-                    <td><input type="radio" name="radGender" value="female" />Female</td>
-                </tr>
-                <tr>
-                    <td><label for="selReferrer">How did you hear about us?</label></td>
-                    <td>
-                        <select name="selReferrer">
-                            <option selected="selected" value=" ">Select Answer</option>
-                            <option value="website">Website</option>
-                            <option value="printAd">Magazine/Newspaper</option>
-                            <option value="friend">Friend</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="chkMailingList">Please check this box if you wish<br />
-                        to be added to our mailing list<br />
-                        <small>We will not pass on your information to any third party</small></label>
-                    </td>
-                    <td><input type="checkbox" name="chkMailingList" /></td>
-                </tr>
-                <tr>
-                    <td> </td>
-                    <td><input type="submit" value="Register Now" /></td>
-                </tr>
-                
-            </table>
+            <fieldset>
+                <legend accesskey="l"><em>Login Info</em></legend>
+                <table id="tblRegistration">
+                    <tr>
+                        <td><label for="txtUserName"> Name:</label></td>
+                        <td><input type="text" name="txtUserName" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtPassword">Password:</label></td>
+                        <td><input type="password" name="txtPassword" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtConfirm">Confirm Password:</label></td>
+                        <td><input type="password" name="txtConfirm" /></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtFirstname">First Name:</label></td>
+                        <td><input type="text" name="txtFirstname" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtLastName">Last Name:</label></td>
+                        <td><input type="text" name="txtLastName" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtEmail">@ddress</label></td>
+                        <td><input type="text" name="txtEmail" /></td>
+                    </tr>                
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="radGender" value="male" />
+                            <label for="male">Male</label>
+                        </td>                    
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td>
+                            <input type="radio" name="radGender" value="female" />
+                            <label for="female">Female</label>
+                        </td>
+                        
+                    </tr>
+                </table>    
+            </fieldset>
+                <fieldset>
+                    <legend accesskey="u"><em>About Us</em></legend>
+                    <table id="tblAboutUs">
+                        <tr>
+                            <td><label for="selReferrer">How did you hear about us?</label></td>
+                            <td>
+                                <select name="selReferrer">
+                                    <option selected="selected" value=" ">Select Answer</option>
+                                    <option value="website">Website</option>
+                                    <option value="printAd">Magazine/Newspaper</option>
+                                    <option value="friend">Friend</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="chkMailingList">Please check this box if you wish<br />
+                                to be added to our mailing list<br />
+                                <small>We will not pass on your information to any third party</small></label>
+                            </td>
+                            <td><input type="checkbox" name="chkMailingList" /></td>
+                        </tr>
+                        <tr>
+                        <td> </td>
+                        <td><input type="submit" value="Register Now" /></td>
+                    </tr>
+                    </table>
+                </fieldset>
         </form>
     </body>
 </html>
