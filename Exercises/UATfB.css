@@ -1,0 +1,72 @@
+/* Stylesheet for User Acceptance Testing forBeginners */
+a.toc{
+    font-family:"Trebuchet MS";
+    
+}
+
+table{
+    background-color:#ffffcc;
+}
+
+td{
+    padding:2px;
+    border-bottom-color:#3399FF;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-left-color:#3399FF;
+    border-left-width:1px;
+    border-left-style:solid;
+}
+
+td.rowHead{
+    padding:2px;
+    border-top-color:#3399FF;
+    border-top-width:1px;
+    border-top-style:solid;    
+    background-color:#cc3300;
+    font-family:"Trebuchet MS"; 
+    font-size:medium;
+    font-weight:700;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+td.rowHeadlastCol{
+    padding:2px;
+    border-right-color:#3399FF;
+    border-right-width:1px;
+    border-right-style:solid;    
+    border-top-color:#3399FF;
+    border-top-width:1px;
+    border-top-style:solid;    
+    background-color:#cc3300;
+    font-family:"Trebuchet MS"; 
+    font-size:medium;
+    font-weight:700;
+    text-align:center;
+    color:#FFFFFF
+}
+
+td.colHead{
+    padding:2px;
+    background-color:#cc3300; 
+    font-family:"Trebuchet MS"; 
+    text-align:left;
+    font-size:medium;
+    font-weight:700;
+    color:#FFFFFF;
+}
+
+td.lastCol{
+    padding:2px;
+    border-bottom-color:#3399FF;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-left-color:#3399FF;
+    border-left-width:1px;
+    border-left-style:solid;    
+    border-right-color:#3399FF;
+    border-right-width:1px;
+    border-right-style:solid;    
+}
+
