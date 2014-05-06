@@ -1,0 +1,43 @@
+/* Style sheet for fonts.html */
+
+body{font-size:100%}
+
+p.one{font-family:"Book Antiqua";font-size:120%;font-weight:lighter;
+}
+p.two{font-family:"Bookman Old Style";font-size:120%;font-weight:normal;
+}
+p.three{font-family:"Garamond";font-size:120%;font-weight:bold;
+}
+p.four{font-family:"Georgia";font-size:120%;font-weight:bolder;
+}
+p.five{font-family:"Palatino Linotype";font-size:120%;
+}
+p.six{font-family:"Times New Roman";font-size:120%;
+}
+p.seven{font-family:"Arial";font-size:120%;
+}
+p.eight{font-family:"Arial Black";font-size:120%;
+}
+p.nine{font-family:"Comic Sans MS";font-size:120%;
+}
+p.ten{font-family:"Impact";font-size:120%;
+}
+p.eleven{font-family:"Lucida Sans Unicode";font-size:120%;
+}
+p.twelve{font-family:"Tahoma";font-size:120%;
+}
+p.thirt{font-family:"Trebuchet MS";font-size:120%;
+}
+p.fourt{font-family:"Verdana";font-size:120%;
+}
+p.fift{font-family:"Courier New";font-size:120%;
+}
+p.sixt{font-family:"Lucida Console";font-size:120%;
+}
+
+h3{font-family:"Tahoma";
+   font-size:90%;
+   text-decoration:underline;
+   color:#009999;
+    
+}
