@@ -36,8 +36,34 @@ p.sixt{font-family:"Lucida Console";font-size:120%;
 }
 
 h3{font-family:"Tahoma";
-   font-size:90%;
+   font-size:130%;
    text-decoration:underline;
    color:#009999;
+   text-shadow:0.3em 0.3em 0.2em gray
     
 }
+
+p{font-family:"Tahoma";font-size:120%;}
+p.wgtlight{font-weight:lighter;}
+p.wgtnormal{font-weight:normal;}
+p.wgtbold{font-weight:bold;}
+p.wgtbolder{font-weight:bolder;}
+
+td{vertical-align:top;padding:5px}
+
+p.stylenormal{font-style:normal;}
+p.styleitalic{font-style:italic;}
+p.styleoblique{font-style:oblique;}
+
+p.varnormal{font-variant:normal;}
+p.varsmallcaps{font-variant:small-caps;}
+/*
+p.stretchuc{font-stretch:ultra-condensed;}
+p.stretchec{font-stretch:extra-condensed;}
+p.stretchc{font-stretch:condensed;}
+p.stretchsc{font-stretch:semi-condensed;}
+p.stretchse{font-stretch:semi-expanded;}
+p.stretche{font-stretch:expanded;}
+p.stretchee{font-stretch:extra-expanded;}
+p.stretchue{font-stretch:ultra-expanded;}
+*/
