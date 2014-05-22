@@ -14,6 +14,7 @@ table{
     border-style:solid;
     border-width:1px;
     border-color:#3399ff;
+    width: 5%;
 }
 
 th{
@@ -27,4 +28,25 @@ td{padding:5px;}
 td.code{
     font-family:Courier, courier-new; serif;
     font-weight:bold;
+}
+
+/*
+.perm{
+    color:#F5A9BC;
+    text-decoration: none;
+}
+*/
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+    color:#3399FF;
+}
+a:link:hover{
+    text-decoration:underline;
+    color:#993300;
+}
+
+body{background: #FFFF99 url(Poldy.png) no-repeat 50% 20% fixed;
 }
